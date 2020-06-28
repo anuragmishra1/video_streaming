@@ -1,0 +1,23 @@
+{
+	"name": "video-streaming",
+	"version": "1.0.0",
+	"description": "Video streaming service",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Anurag Mishra",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/anuragmishra1/video_streaming"
+	},
+	"keywords": [
+		"video-streaming"
+	],
+	"dependencies": {
+		"express": "^4.17.1",
+		"mime": "^2.4.6"
+	}
+}
